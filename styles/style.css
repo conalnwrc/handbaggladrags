@@ -1,0 +1,84 @@
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  /*"Conal notes-Take any spare space and split it equally on both sides for left and right*/
+  margin: 0 auto;
+  /*stops content touching the edge*/
+  padding: 16px;
+}
+
+
+/* value = all sides
+
+2 values = top/bottom, left/right
+
+3 values = top, left/right, bottom
+
+4 values = TRBL (top, right, bottom, left)
+*/
+
+h1,
+h2,
+h3 {
+  margin: 0 0 12px;
+}
+
+.section {
+  margin: 16px 0 24px;
+}
+
+
+.media img {
+  width: 70%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-title {
+  margin: 0;
+  padding: 16px 16px 0;
+  font-size: 22px;
+}
+
+.nav {
+  margin: 0;
+  padding: 12px 16px 16px;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  background: #560467
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fafafa;
+}
+
+.nav a[aria-current="page"] {
+  background: #dbdde0;
+  font-weight: bold;
+}
+
+
+.site-footer {
+  padding: 16px;
+  text-align: center;
+  color: #666;
+}
